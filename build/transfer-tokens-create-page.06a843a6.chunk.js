@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbackend_cec_france=self.webpackChunkbackend_cec_france||[]).push([[4816],{39987:(r,n,e)=>{e.r(n),e.d(n,{default:()=>a});var t=e(67294),s=e(95489),P=e.n(s),_=e(87751),E=e(53219);const a=()=>t.createElement(s.CheckPagePermissions,{permissions:_.Z.settings["transfer-tokens"].create},t.createElement(E.Z,null))}}]);

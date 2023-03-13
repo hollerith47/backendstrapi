@@ -1,2 +1,24 @@
 email: makieseherman@gmail.com
 password: kRifzQKrnjVd5nlll
+
+--------------------------------
+online database
+ connectionString: env('DATABASE_URL'),
+        host: env('DATABASE_HOST', 'localhost'),
+        port: env.int('DATABASE_PORT', 3306),
+        database: env('DATABASE_NAME',
+'cecfranc_strapi'),
+        user: env('DATABASE_USERNAME',
+'cecfranc_strapi'),
+        password: env('DATABASE_PASSWORD',
+'$*ClRKj(+*cY'),
+        ssl: env.bool('DATABASE_SSL', false) && {
+          key: env('DATABASE_SSL_KEY', undefined),
+          cert: env('DATABASE_SSL_CERT', undefined),
+          ca: env('DATABASE_SSL_CA', undefined),
+          capath: env('DATABASE_SSL_CAPATH', undefined),
+          cipher: env('DATABASE_SSL_CIPHER', undefined),
+          rejectUnauthorized: env.bool(
+            'DATABASE_SSL_REJECT_UNAUTHORIZED',
+            true
+          ),
